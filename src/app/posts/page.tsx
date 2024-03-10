@@ -28,7 +28,7 @@ const retrievePosts = async () => {
     throw e;
   }
 };
-const Index = async () => {
+const PostsIndex = async () => {
   const posts = await retrievePosts();
 
   return (
@@ -43,4 +43,4 @@ const Index = async () => {
   );
 };
 
-export default Index;
+export default PostsIndex;
